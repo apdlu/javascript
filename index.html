@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="op">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estilos.css" type="text/css" media=screen>
+	
+</head>
+<body>
+
+	<header>
+		<h1>Operaciones Aritmeticas</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">ARITMETICA</a></li>
+			<li><a href="mascotas.html">MASCOTAS</a></li>
+		</ul>
+	</nav>
+	
+	<article>
+		<img src="ej1.png" alt="OPERACIONES" style="width: 50%">
+	</article>
+
+	<article>
+		<h2>7</h2>
+		<script type="text/javascript">
+			var t = 6.8;
+			var a1 = (Math.abs(Math.pow(t,2)) - (Math.pow(t,3)));
+			var a2 = Math.abs(a1)
+			var a3 = Math.log(a2);
+			var resultadoa = a3;
+			document.write("<p class=calculos> a) el resultado es: "+resultadoa+"</p");
+		</script>
+	</article>	
+	<article>	
+		<script type="text/javascript">
+			var t = 6.8;
+			var b1 = (75)/(2*t);
+			var b2 = (0.8*t)-(3);
+			var b3 = Math.cos(b2);
+			var resultadob = b1 * b3;
+			document.write("<p class=calculos> b) el resultado es: "+resultadob+"</p");
+		</script>
+	</article>
+	<article>
+		<h2>8</h2>
+		<script type="text/javascript">
+			var x = 8.3;
+			var y = 2.4;
+			var p = Math.pow(x,2);
+			var q = Math.pow(y,2);
+			var c = (p+q)-(p/q);
+			document.write("<p class=calculos> a) el resultado es: "+c+"</p");
+
+		</script>
+	</article>
+	<article>
+		<script type="text/javascript">
+			var x = 8.3;
+			var y = 2.4;
+			var w1 = Math.sqrt(x*y);
+			var w2 = Math.sqrt(x+y);
+			var w3 = Math.pow((x-y)/(x-(2*y)),2);
+			var w4 = Math.sqrt(x/y);
+			var wf = w1 - w2 + w3 - w4 ; 
+			document.write("<p class=calculos> b) el resultado es: "+wf+"</p");
+
+		</script>
+	</article>
+</body>
+</html>

@@ -1,0 +1,60 @@
+.calculos{
+			background: #4a1414;
+			color: #ffffff;
+			margin: 5px;
+			padding: 10px;
+		}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7d3939;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+nav {
+	position: -webkit-sticky; /* Safari */
+  	position: sticky;
+  	top: 0;
+
+}
+li {
+  float: left;
+  border-right:1px solid #fafafa;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #782020;
+}
+.mascota {
+	background-image: url("3.png");
+}
+.op {
+	background: #a67e7e;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+	border: 10px;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+}
